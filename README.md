@@ -1,6 +1,5 @@
 # MINCSS
-- :warning: The website is in development and not ready to use. :no_entry:
-<br/>
+- :warning: The website is in development and not ready to use. ⛔
 - A website that allows to copypaste minimal responsive html components.
 
 
