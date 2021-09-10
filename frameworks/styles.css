@@ -1,0 +1,155 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    font-family:  Lato, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+}
+
+header{
+    width: 100%;
+    height: 70px;
+    background-color: #0D6EFD;
+    color: white;
+}
+
+.logosec{
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    float: left;
+}
+
+.logo{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    border: none;
+    outline: 0;
+}
+
+.logoname{
+    height: 30px;
+    width: 100px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+nav{
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    float: right;
+}
+
+.pages{
+    text-align: center;
+    padding: 5px 10px 5px 10px;
+    margin: 15px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.section{
+    display: flex;
+    min-height: 90vh;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    justify-content: space-evenly;
+}
+
+.section h1{
+    color: #1d1d1d;
+}
+
+.cardssec{
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    justify-content: center;
+    border-bottom: 1px solid #0D6EFD;
+}
+.cards{
+    margin: 20px;
+    height: 450px;
+    width: 300px;
+    background-color: rgb(243, 243, 243);
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.cards h3{
+    color: #0D6EFD;
+    margin-bottom: 5px;
+}
+
+.fleximg{
+    object-fit: cover;
+    max-width: 100%;
+    padding: 5px;
+}
+.text{
+    text-align: center;
+    margin: 10px;
+    align-items: center;
+}
+
+.btn{
+    color: white;
+    background-color: #0D6EFD;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    outline: 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    text-decoration: none;
+}
+.btn:hover{
+    background-color: #0e54be;
+}
+
+@media screen and (max-width: 500px) {
+    body{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-wrap: wrap;
+        flex-grow: 1;
+        justify-content: center;
+    }
+    
+    .cards{
+        margin: 20px;
+        height: 450px;
+        width: 300px;
+        background-color: rgb(243, 243, 243);
+        border-radius: 10px;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+}
