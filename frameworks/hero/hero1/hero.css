@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+}
+
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    min-height: 100vh;
+}
+
+.hero .main{
+    padding: 10px;
+    max-width: 500px;
+}
+
+.hero .introimg{
+    object-fit: cover;
+    max-width: 100% ;
+}
+
+.hero h1{
+    margin: 10px;
+}
+
+.hero .paragraph{
+    margin: 10px;
+}

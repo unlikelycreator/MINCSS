@@ -18,52 +18,46 @@ header{
     justify-content: space-between;
 }
 
-.logo{
+header .logo{
     height: 50px;
     width: 50px;
     border-radius: 50px;
     border: none;
     outline: 0;
-    background-color: gray;
     margin: 10px;
 }
 
-.logoname{
+header .logoname{
     height: 35px;
     width: 100px;
     margin: 10px;
-    background-color: rgb(204, 201, 201);
     border-radius: 5px;
 }
 
-.pages{
-    display: inline-block;
-    width: 70px;
+header .pages{
     text-align: center;
     padding: 5px 10px 5px 10px;
     margin: 15px;
-    background-color: rgb(204, 201, 201);
     text-decoration: none;
-    color: rgb(204, 201, 201);
+    color: rgb(39, 39, 39);
     border-radius: 5px;
 }
 
-.hamburger{
+header .hamburger{
     display: none;
 }
 
 @media screen and (max-width: 600px) {
 
-    .pages{
+    header .pages{
         display: none;
     }
 
-    .hamburger{
+    header .hamburger{
       display: block;
       padding: 5px 10px 5px 10px;
       margin: 15px;
-      background-color: rgb(204, 201, 201);
-      color: rgb(204, 201, 201);
+      color: rgb(37, 37, 37);
       height: 30px;
       width: 60px;
       border: none;
