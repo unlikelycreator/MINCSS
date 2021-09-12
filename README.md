@@ -4,7 +4,7 @@
 - MINCSS cdn now available at https://mincsscdn.netlify.app/mincss.css
 ![alt text](https://github.com/unlikelycreator/MINCSS/blob/main/mincsscdn.png?raw=true)
 
-Website link: https://mincss.netlify.app/
+- Website link: https://mincss.netlify.app/
 
 ![alt text](https://github.com/unlikelycreator/MINCSS/blob/main/mincss.png?raw=true)
 
