@@ -3,6 +3,8 @@
 - A website that allows to copypaste minimal responsive html components.
 - MINCSS cdn now available at https://mincsscdn.netlify.app/
 
+Tutorial will be availble soon
+
 
 ![alt text](https://github.com/unlikelycreator/MINCSS/blob/main/mincsscdn.png?raw=true)
 
