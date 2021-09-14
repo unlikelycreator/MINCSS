@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>MINCSS CDN</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://mincsscdn.netlify.app/mincss.min.css">
+    </head>
+    <body class="flexv vc">
+        <div class="flexv hv-100 just-ce vc">
+            <h1>Welcome to MINCSS cdn</h1>
+            <form class="min-form vc just-ce wpx-700">
+                <input type="text" class="input-green mg10 pd10" value="https://mincsscdn.netlify.app/mincss.css" id="myInput">
+                <button onclick="myFunction()" class="btn-green mg20">Copy</button>
+            </form>
+        </div>
+        <h1>Templates</h1>
+        <div class="flexh">
+        <a class="link-black btn-green vc just-ce txt-white" href="templates/header.html">Header</a>
+        <a class="link-black btn-green vc just-ce txt-white" href="templates/intro.html">Intro</a>
+        <a class="link-black btn-green vc just-ce txt-white" href="templates/card.html">card</a>
+        <a class="link-black btn-green vc just-ce txt-white" href="templates/footer.html">Footer</a>
+        </div>
+<script>
+function myFunction() {
+  /* Get the text field */
+  var copyText = document.getElementById("myInput");
+
+  /* Select the text field */
+  copyText.select();
+  copyText.setSelectionRange(0, 99999); /* For mobile devices */
+
+  /* Copy the text inside the text field */
+  navigator.clipboard.writeText(copyText.value);
+  
+  /* Alert the copied text */
+  alert("Copied the text: " + copyText.value);
+}
+</script>
+    </body>
+</html>
