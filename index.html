@@ -30,7 +30,8 @@
                     <div class="col-xl-6">
                         <div class="text-center text-white">
                             <!-- Page heading-->
-                            <h1 class="mb-5">Generate website quickly with free to use templates</h1>
+                            <h1 class="mb-5">Generate website quickly with free to use CSS templates.</h1>
+                            <p>Easy to use CDN or templates, Click "Get Started" to know more.</p>
                             <!-- Signup form-->
                             <!-- * * * * * * * * * * * * * * *-->
                             <!-- * * SB Forms Contact Form * *-->
@@ -43,11 +44,9 @@
                                 <!-- Email address input-->
                                 <div class="row">
                                     <div class="col">
-                                        <input class="form-control form-control-lg" id="emailAddress" type="email" placeholder="Email Address" data-sb-validations="required,email" />
-                                        <div class="invalid-feedback text-white" data-sb-feedback="emailAddress:required">Email Address is required.</div>
-                                        <div class="invalid-feedback text-white" data-sb-feedback="emailAddress:email">Email Address Email is not valid.</div>
+                                        <input style="height: 60px; width:100%; border-radius: 5px; outline: 0; border:none; padding:5px;" id="myInput" value="https://mincsscdn.netlify.app/mincss.min.css" />
                                     </div>
-                                    <div class="col-auto"><button class="btn btn-primary btn-lg disabled" id="submitButton" type="submit">Submit</button></div>
+                                    <div class="col-auto"><button class="btn btn-primary btn-lg"  type="submit" onClick="myFunction()" >Copy CDN</button></div>
                                 </div>
                                 <!-- Submit success message-->
                                 <!---->
@@ -112,7 +111,7 @@
                 <div class="row g-0">
                     <div class="col-lg-6 text-white showcase-img" style="background-image: url('assets/img/bg-showcase-2.jpg')"></div>
                     <div class="col-lg-6 my-auto showcase-text">
-                        <h2>Updated For Bootstrap 5</h2>
+                        <h2>Updated and reviewed regularly</h2>
                         <p class="lead mb-0">Newly improved, and full of great design options, MINCSS is leading the way in mobile responsive web development! All of the themes on MINCSS can be customized easily!</p>
                     </div>
                 </div>
@@ -132,22 +131,22 @@
                 <div class="row">
                     <div class="col-lg-4">
                         <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-                            <img class="img-fluid rounded-circle mb-3" src="logo.png" alt="..." />
-                            <h5>Margaret E.</h5>
+                            <!--<img class="img-fluid rounded-circle mb-3" src="logo.png" alt="..." />-->
+                            <h5>Abhijeet K.</h5>
                             <p class="font-weight-light mb-0">"This is fantastic! Thanks so much guys!"</p>
                         </div>
                     </div>
                     <div class="col-lg-4">
                         <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-                            <img class="img-fluid rounded-circle mb-3" src="logo.png" alt="..." />
-                            <h5>Fred S.</h5>
-                            <p class="font-weight-light mb-0">"Bootstrap is amazing. I've been using it to create lots of super nice landing pages."</p>
+                            <!--<img class="img-fluid rounded-circle mb-3" src="logo.png" alt="..." />-->
+                            <h5>Aisha S.</h5>
+                            <p class="font-weight-light mb-0">"MINCSS is amazing. I've been using it to create lots of super nice landing pages."</p>
                         </div>
                     </div>
                     <div class="col-lg-4">
                         <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-                            <img class="img-fluid rounded-circle mb-3" src="logo.png" alt="..." />
-                            <h5>Sarah W.</h5>
+                            <!--<img class="img-fluid rounded-circle mb-3" src="logo.png" alt="..." />-->
+                            <h5>Pranay W.</h5>
                             <p class="font-weight-light mb-0">"Thanks so much for making these free resources available to us!"</p>
                         </div>
                     </div>
@@ -176,7 +175,7 @@
                                     <div class="invalid-feedback text-white" data-sb-feedback="emailAddressBelow:required">Email Address is required.</div>
                                     <div class="invalid-feedback text-white" data-sb-feedback="emailAddressBelow:email">Email Address Email is not valid.</div>
                                 </div>
-                                <div class="col-auto"><button class="btn btn-primary btn-lg disabled" id="submitButton" type="submit">Submit</button></div>
+                                <div class="col-auto"><button class="btn btn-primary btn-lg disabled" id="submitButton" type="submit" >Submit</button></div>
                             </div>
                             <!-- Submit success message-->
                             <!---->
@@ -231,14 +230,28 @@
                 </div>
             </div>
         </footer>
+        <script>
+function myFunction() {
+  /* Get the text field */
+  var copyText = document.getElementById("myInput");
+
+  /* Select the text field */
+  copyText.select();
+  copyText.setSelectionRange(0, 99999); /* For mobile devices */
+
+  /* Copy the text inside the text field */
+  navigator.clipboard.writeText(copyText.value);
+  
+  /* Alert the copied text */
+  alert("Copied the text: " + copyText.value);
+}
+</script>
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
+        <!-- Core theme JS--->
         <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
         <!-- * *                               SB Forms JS                               * *-->
         <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
         <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
     </body>
 </html>
