@@ -1,0 +1,749 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* paddings*/
+.pd5{
+    padding: 5px;
+}
+.pd10{
+    padding: 10px;
+}
+.pd15{
+    padding: 15px;
+}
+.pd20{
+    padding: 20px;
+}
+
+/* margins*/
+.mg5{
+    margin: 5px;
+}
+.mg10{
+    margin: 10px;
+}
+.mg15{
+    margin: 15px;
+}
+.mg20{
+    margin: 20px;
+}
+
+/* flex-directions*/
+.flexh{
+    display: flex;
+}
+.wrap{
+    display: flex;
+    flex-wrap: wrap ;
+}
+.flexv{
+    display: flex;
+    flex-direction: column;
+}
+/* flex align */
+.just-ce{
+    display: flex;
+    justify-content: center;
+}
+
+.just-fs{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.just-fe{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.just-se{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.just-sa{
+    display: flex;
+    justify-content: space-around;
+}
+
+.just-sb{
+    display: flex;
+    justify-content: space-between;
+}
+
+.vc{
+    display: flex;
+    align-items: center;
+}
+.res-img{
+    width: 100%;
+    height: auto;
+}
+/* size width*/
+.wv-100{
+    width: 100%;
+}
+.wpx-100{
+    width: 100px;
+}
+.wv-90{
+    width: 90%;
+}
+.wpx-90{
+    width: 90px;
+}
+.wv-80{
+    width: 80%;
+}
+.wpx-80{
+    width: 80px;
+}
+.wv-70{
+    width: 70%;
+}
+.wpx-70{
+    width: 70px;
+}
+.wv-60{
+    width: 60%;
+}
+.wpx-60{
+    width: 60px;
+}
+.wv-50{
+    width: 50%;
+}
+.wpx-50{
+    width: 50px;
+}
+.wv-40{
+    width: 40%;
+}
+.wpx-40{
+    width: 40px;
+}
+.wv-30{
+    width: 30%;
+}
+.wpx-30{
+    width: 30px;
+}
+.wv-20{
+    width: 20%;
+}
+.wpx-20{
+    width: 20px;
+}
+.wv-10{
+    width: 10%;
+}
+.wpx-10p{
+    width: 10px;
+}
+.wpx-500{
+    width: 500px;
+}
+.wpx-600{
+    width: 600px;
+}
+.wpx-700{
+    width: 700px;
+}
+.wpx-800{
+    width: 800px;
+}
+.wpx-900{
+    width: 900px;
+}
+.wpx-1000{
+    width: 1000px;
+}
+
+/* size height*/
+.hv-100{
+    height: 100vh;
+}
+.hpx-100{
+    height: 100px;
+}
+.hv-90{
+    height: 90vh;
+}
+.hpx-90{
+    height: 90px;
+}
+.hv-80{
+    height: 80vh;
+}
+.hpx-80{
+    height: 80px;
+}
+.hv-70{
+    height: 70vh;
+}
+.hpx-70{
+    height: 70px;
+}
+.hv-60{
+    height: 60vh;
+}
+.hpx-60{
+    height: 60px;
+}
+.hv-50{
+    height: 50vh;
+}
+.hpx-50{
+    height: 50px;
+}
+.hv-40{
+    height: 40vh;
+}
+.hpx-40{
+    height: 40px;
+}
+.hv-30{
+    height: 30vh;
+}
+.hpx-30{
+    height: 30px;
+}
+.hv-20{
+    height: 20vh;
+}
+.hpx-20{
+    height: 20px;
+}
+.hv-10{
+    height: 10vh;
+}
+.hpx-10{
+    height: 10px;
+}
+.hpx-500{
+    height: 500px;
+}
+.hpx-600{
+    height: 600px;
+}
+.hpx-700{
+    height: 700px;
+}
+.hpx-800{
+    height: 800px;
+}
+.hpx-900{
+    height: 900px;
+}
+.hpx-1000{
+    height: 1000px;
+}
+
+/*Button */
+
+.btn-primary{
+    height: 40px;
+    width: 100px;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(28, 94, 216);
+    outline: 0;
+    border: none;
+    margin: 5px;
+}
+.btn-green{
+    height: 40px;
+    width: 100px;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(37, 172, 50);
+    outline: 0;
+    border: none;
+    margin: 5px;
+}
+.btn-danger{
+    height: 40px;
+    width: 100px;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(216, 28, 28);
+    outline: 0;
+    border: none;
+    margin: 5px;
+}
+.btn-black{
+    height: 40px;
+    width: 100px;
+    border-radius: 5px;
+    color: white;
+    background-color: #1d1d1d;
+    outline: 0;
+    border: none;
+    margin: 5px;
+}
+.btn-white{
+    height: 40px;
+    width: 100px;
+    border-radius: 5px;
+    color: black;
+    background-color: rgb(233, 233, 233);
+    outline: 0;
+    border: none;
+    margin: 5px;
+}
+.btn-purple{
+    height: 40px;
+    width: 100px;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(122, 28, 216);
+    outline: 0;
+    border: none;
+    margin: 5px;
+}
+.btn-pink{
+    height: 40px;
+    width: 100px;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(216, 28, 178);
+    outline: 0;
+    border: none;
+    margin: 5px;
+}
+
+
+/*Texts*/
+.title{
+    margin: 10px;
+}
+.description{
+    text-align: center;
+    margin: 10px;
+}
+.txt-white{
+    color: white;
+}
+.txt-black{
+    color: #1d1d1d;
+}
+.txt-green{
+    color: rgb(37, 172, 50);
+}
+.txt-primary{
+    color: rgb(28, 94, 216);
+}
+.txt-danger{
+    color: rgb(216, 28, 28);
+}
+.txt-purple{
+    color: rgb(122, 28, 216);
+}
+.txt-pink{
+    color: rgb(216, 28, 178) ;
+}
+.bg-primary{
+    background-color: rgb(28, 94, 216);
+}
+.bg-black{
+    background-color: #1d1d1d;
+}
+
+/* Card */
+.card-white{
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    min-height: 400px;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(240, 240, 240);
+    border-radius: 10px;
+}
+
+.bx-white:hover{
+    border: 2px solid rgb(224, 224, 224);
+}
+.card-black{
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    min-height: 400px;
+    align-items: center;
+    text-align: center;
+    background-color: #1d1d1d;
+    border-radius: 10px;
+}
+.bx-black:hover{
+    box-shadow: 1px 1px 3px 3px rgb(59, 59, 59);
+
+}
+.card-primary{
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    min-height: 400px;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(28, 94, 216);
+    border-radius: 10px;
+}
+.bx-primary:hover{
+    padding: 10px;
+    box-shadow: 1px 1px 3px 3px rgb(155, 185, 240);
+}
+.card-green{
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    min-height: 400px;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(37, 172, 50);
+    border-radius: 10px;
+}
+.bx-green:hover{
+    box-shadow: 1px 1px 3px 3px rgb(152, 243, 161);
+}
+
+.card-purple{
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    min-height: 400px;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(122, 28, 216);
+    border-radius: 10px;
+}
+.bx-purple:hover{
+    box-shadow: 1px 1px 3px 3px rgb(186, 136, 236);
+}
+
+
+.card-pink{
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    min-height: 400px;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(216, 28, 178);
+    border-radius: 10px;
+}
+.bx-pink:hover{
+    box-shadow: 1px 1px 3px 3px rgb(223, 123, 203);
+}
+
+.card-danger{
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    min-height: 400px;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(216, 28, 28);
+    border-radius: 10px;
+}
+
+/* input */
+.input-primary{
+    width: 100%;
+    height: 40px;
+    outline: 0;
+    border-radius: 5px;
+    border: 1px solid rgb(28, 94, 216);
+}
+.input-black{
+    width: 100%;
+    height: 40px;
+    outline: 0;
+    border-radius: 5px;
+    border: 1px solid #1d1d1d;
+}
+.input-green{
+    width: 100%;
+    height: 40px;
+    outline: 0;
+    border-radius: 5px;
+    border: 1px solid rgb(37, 172, 50);
+}
+.input-purple{
+    width: 100%;
+    height: 40px;
+    outline: 0;
+    border-radius: 5px;
+    border: 1px solid rgb(122, 28, 216);
+}
+.input-pink{
+    width: 100%;
+    height: 40px;
+    outline: 0;
+    border-radius: 5px;
+    border: 1px solid rgb(216, 28, 178);
+}
+.input-danger{
+    width: 100%;
+    height: 40px;
+    outline: 0;
+    border-radius: 5px;
+    border: 1px solid rgb(216, 28, 28);
+}
+
+.link-white{
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+.link-black{
+    color: black;
+    text-decoration: none;
+    margin: 10px;
+}
+.link-primary{
+    color: rgb(28, 94, 216);
+    text-decoration: none;
+    margin: 10px;
+}
+.link-danger{
+    color: rgb(216, 28, 28);
+    text-decoration: none;
+    margin: 10px;
+}
+.link-green{
+    color: rgb(37, 172, 50);
+    text-decoration: none;
+    margin: 10px;
+}
+.link-purple{
+    color: rgb(122, 28, 216);
+    text-decoration: none;
+    margin: 10px;
+}
+.link-pink{
+    color: rgb(216, 28, 178);
+    text-decoration: none;
+    margin: 10px;
+}
+
+
+.min-form{
+    justify-content: space-between;
+    min-height: 100px;
+    border-radius: 10px;
+}
+
+.min-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+
+}
+.ham-btn{
+    width: 50px;
+    height: 40px;
+    display: none;
+    outline: 0;
+    border: none;
+}
+
+@media screen and (max-width: 750px) {
+    .min-form{
+        width: 100%;
+        justify-content: space-between;
+        min-height: 100px;
+        border-radius: 10px;
+    }
+    .nav{
+        display: none;
+    }
+    .ham-btn{
+        display: block;
+    }
+    .wv-100{
+        width: 90%;
+    }
+    .wpx-100{
+        width: 100px;
+    }
+    .wv-90{
+        width: 90%;
+    }
+    .wpx-90{
+        width: 90px;
+    }
+    .wv-80{
+        width: 90%;
+    }
+    .wpx-80{
+        width: 80px;
+    }
+    .wv-70{
+        width: 90%;
+    }
+    .wpx-70{
+        width: 70px;
+    }
+    .wv-60{
+        width: 90%;
+    }
+    .wpx-60{
+        width: 60px;
+    }
+    .wv-50{
+        width: 90%;
+    }
+    .wpx-50{
+        width: 50px;
+    }
+    .wv-40{
+        width: 90%;
+    }
+    .wpx-40{
+        width: 40px;
+    }
+    .wv-30{
+        width: 90%;
+    }
+    .wpx-30{
+        width: 30px;
+    }
+    .wv-20{
+        width: 90%;
+    }
+    .wpx-20{
+        width: 20px;
+    }
+    .wv-10{
+        width: 90%;
+    }
+    .wpx-10p{
+        width: 10px;
+    }
+    .wpx-500{
+        width: 500px;
+    }
+    .wpx-600{
+        width: 600px;
+    }
+    .wpx-700{
+        width: 700px;
+    }
+    .wpx-800{
+        width: 800px;
+    }
+    .wpx-900{
+        width: 900px;
+    }
+    .wpx-1000{
+        width: 1000px;
+    }
+
+}
+@media screen and (max-width: 600px) {
+    .min-div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .min-form{
+        width: 100%;
+        justify-content: space-between;
+        min-height: 100px;
+        border-radius: 10px;
+    }
+    .nav{
+        display: none;
+    
+    }
+    .ham-btn{
+        display: block;
+    }
+    .wv-100{
+        width: 90%;
+    }
+    .wpx-100{
+        width: 100px;
+    }
+    .wv-90{
+        width: 90%;
+    }
+    .wpx-90{
+        width: 90px;
+    }
+    .wv-80{
+        width: 90%;
+    }
+    .wpx-80{
+        width: 80px;
+    }
+    .wv-70{
+        width: 90%;
+    }
+    .wpx-70{
+        width: 70px;
+    }
+    .wv-60{
+        width: 90%;
+    }
+    .wpx-60{
+        width: 60px;
+    }
+    .wv-50{
+        width: 90%;
+    }
+    .wpx-50{
+        width: 50px;
+    }
+    .wv-40{
+        width: 90%;
+    }
+    .wpx-40{
+        width: 40px;
+    }
+    .wv-30{
+        width: 90%;
+    }
+    .wpx-30{
+        width: 30px;
+    }
+    .wv-20{
+        width: 90%;
+    }
+    .wpx-20{
+        width: 20px;
+    }
+    .wv-10{
+        width: 90%;
+    }
+    .wpx-10p{
+        width: 10px;
+    }
+    .wpx-500{
+        width: 500px;
+    }
+    .wpx-600{
+        width: 600px;
+    }
+    .wpx-700{
+        width: 700px;
+    }
+    .wpx-800{
+        width: 800px;
+    }
+    .wpx-900{
+        width: 900px;
+    }
+    .wpx-1000{
+        width: 1000px;
+    }
+}
